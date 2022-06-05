@@ -2,7 +2,10 @@
   "name": "nanorave-mono",
   "version": "0.0.0",
   "private": true,
-  "workspaces": ["apps/*", "packages/*"],
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build --force",
     "dev": "turbo run dev --parallel",
@@ -13,6 +16,9 @@
     "start:server": "cd apps/server && yarn start",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "resolutions": {
+    "@types/react": "17.0.30"
   },
   "devDependencies": {
     "prettier": "^2.5.1",
