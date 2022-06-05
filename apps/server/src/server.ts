@@ -2,7 +2,7 @@
  * This file was auto-generated using the Sensible Boilerplate Creator (npx create-sensible-app).
  * You can edit it in what ever way you see fit.
  */
-import { PublicConstants } from "core-sensible";
+import { PublicConstants } from "core-nanorave";
 import fs from "fs";
 import path, { resolve } from "path";
 import { findFiles, importFromFiles, Path } from "sensible-files";

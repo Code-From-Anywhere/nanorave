@@ -7,7 +7,7 @@ import {
   UserRole,
   userRoles,
   UserType,
-} from "core-sensible";
+} from "core-nanorave";
 
 interface UserCreationType extends Partial<UserType> {}
 

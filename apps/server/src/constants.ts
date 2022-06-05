@@ -3,7 +3,7 @@
  * You can edit it in what ever way you see fit.
  */
 
-import { PublicConstants } from "core-sensible";
+import { PublicConstants } from "core-nanorave";
 
 const env = process.env as { [key: string]: string };
 

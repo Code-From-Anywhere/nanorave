@@ -4,7 +4,7 @@
  */
 import path from "path";
 import { createMakeEndpoint } from "sensible-server";
-import { AllEndpoints } from "core-sensible";
+import { AllEndpoints } from "core-nanorave";
 import { interpretableTypes } from "./typeFiles";
 
 const schemasFolderPath = path.join(__dirname, "..", "schemas");
