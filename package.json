@@ -1,11 +1,8 @@
 {
-  "name": "nanorave-mono?no",
+  "name": "nanorave-mono",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
+  "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "build": "turbo run build --force",
     "dev": "turbo run dev --parallel",
